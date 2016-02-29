@@ -425,3 +425,6 @@ def power(G, k):
             level = level + 1
         H.add_edges_from((n, nbr) for nbr in seen)
     return H
+
+def rooted_product(G, H):
+    return G
