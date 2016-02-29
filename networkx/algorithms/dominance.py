@@ -140,3 +140,6 @@ def dominance_frontiers(G, start):
                 df[v].append(u)
 
     return df
+
+def dominator_tree(G, start):
+    return G
